@@ -32,29 +32,7 @@ Django REST Framework (DRF)
 
 SQLite (default, easy to switch to PostgreSQL/MySQL)
 
-📂 Project Structure
-bash
-Copy
-Edit
-restaurant-mgmt/
-│
-├── backend/
-│   ├── restaurant/       # Django app
-│   │   ├── models.py     # Restaurant, MenuItem, Table, Order, OrderItem
-│   │   ├── serializers.py
-│   │   ├── views.py
-│   │   ├── urls.py
-│   ├── manage.py
-│   ├── requirements.txt
-│
-├── frontend/
-│   ├── src/
-│   │   ├── pages/        # Home, Dashboard, Orders
-│   │   ├── components/   # Reusable UI parts
-│   │   ├── services/api.js
-│   ├── package.json
-│   ├── vite.config.js
-⚙️ Installation & Setup
+
 1️⃣ Backend Setup
 bash
 Copy
